@@ -36,6 +36,10 @@
     color: #282c3f;
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 13px;
     text-transform: uppercase;
+}
+
+#options a sup {
+    color: #ff3f6c;
 }
