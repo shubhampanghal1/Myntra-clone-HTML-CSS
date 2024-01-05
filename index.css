@@ -1,11 +1,12 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 #nav_bar {
     height: 80px;
     width: 100vw;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     display: flex;
 }
 
@@ -20,4 +21,21 @@
     height: 36px;
     width: 53px;
     padding-left: 22px;
+    box-sizing: content-box;
+}
+
+#options {
+    width: 46vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#options a {
+    text-decoration: none;
+    color: #282c3f;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
 }
