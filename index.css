@@ -5,5 +5,11 @@
 #nav_bar {
     height: 80px;
     width: 100vw;
-    background-color: #ffffff;
+    background-color: cadetblue;
+    display: flex;
+}
+
+#myntra_logo {
+    height: 80px;
+    width: 7vw;
 }
