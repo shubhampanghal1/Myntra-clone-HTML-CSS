@@ -12,4 +12,12 @@
 #myntra_logo {
     height: 80px;
     width: 7vw;
+    display: flex;
+    align-items: center;
+}
+
+#myntra_img {
+    height: 36px;
+    width: 53px;
+    padding-left: 22px;
 }
