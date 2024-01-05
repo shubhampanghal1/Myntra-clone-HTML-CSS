@@ -43,3 +43,22 @@
 #options a sup {
     color: #ff3f6c;
 }
+
+#studio {
+    padding-bottom: 2px;
+}
+
+#search_bar {
+    width: 25vw;
+    background-color: aquamarine;
+    margin-left: 25px;
+    display: flex;
+}
+
+#input_bar {
+    border: 0px solid white;
+    width: 20vw;
+    padding: 8px 10px 10px 10px;
+    margin: 20px 8px 20px 40px;
+}
+
