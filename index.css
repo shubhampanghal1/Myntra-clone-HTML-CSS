@@ -9,6 +9,7 @@
     width: 100vw;
     /* background-color: cadetblue; */
     display: flex;
+    box-shadow: 0px 0px 5px 0px;
 }
 
 #myntra_logo {
