@@ -235,7 +235,7 @@ justify-content:space-evenly ;
     margin: 0px 58px 24px 58px;
     height: 21px;
     margin-top: 40px;
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
  }
 
  #online_and_useful {
@@ -459,4 +459,21 @@ justify-content:space-evenly ;
     font-size: 15px;
     /* font-weight: 400; */
     /* letter-spacing: 0.2px; */
+}
+
+
+#last {
+   padding: 0px 0px 0px 20px;
+   color: #696b79;
+   font-size: 16px;
+}
+
+
+#last pre a {
+   text-decoration: none;
+}
+
+#flipkart_company {
+   text-decoration: none;
+   color: #696b79;
 }
