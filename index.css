@@ -212,7 +212,7 @@ justify-content:space-evenly ;
 
  #footer {
     background-color: #edf0f4;
-    width: 100%;
+    width: 100vw;
     height: 700px;
     padding: 30px 0px 40px 0px;
  }
@@ -329,4 +329,78 @@ justify-content:space-evenly ;
     font-size: 15px;
     line-height: 20px;
     font-weight: 400;
+ }
+
+ #customer_policies {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+ }
+
+ #z {
+    /* display: block; */
+    /* flex-direction: row; */
+    padding: 7px;
+ }
+
+ #z a {
+    color: #282c3f;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+ }
+
+ #customer_policies a {
+    text-decoration: none;
+ }
+
+ #z1 {
+    display: flex;
+    flex-direction: column;
+ }
+
+ #z1 a{
+    color: #696b79;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+ }
+
+
+ #myntra_on_mobile {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+ }
+
+ #b {
+    /* display: block; */
+    /* flex-direction: row; */
+    padding: 7px;
+ }
+
+ #myntra_on_mobile a {
+    text-decoration: none;
+ }
+
+ #b a {
+    color: #282c3f;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+ }
+
+ 
+ #both_logos {
+    display: flex;
+ }
+
+ #google_play_logo img {
+    width: 180px;
+    padding: 0px 10px 0px 0px;
+ }
+
+ #app_store_logo img {
+    width: 135px;
+    padding: 10px 0px 0px 0px;
  }
