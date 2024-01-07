@@ -219,6 +219,7 @@ justify-content:space-evenly ;
  
 
  #first {
+    display: flex;
     margin: 0px 58px 24px 58px;
     height: 428px;
     background-color: #ff3f6c;
@@ -235,4 +236,97 @@ justify-content:space-evenly ;
     height: 21px;
     margin-top: 40px;
     background-color: deepskyblue;
+ }
+
+ #online_and_useful {
+    width: 185px;
+    padding-right: 20px;
+    background-color: maroon;
+ }
+
+ #customer_policies {
+    width: 182px;
+    background-color: gold;
+ }
+
+ #myntra_on_mobile {
+    width: 450px;
+    padding: 13px 20px 0px 0px;
+    background-color: darkolivegreen;
+ }
+
+ #extra_info {
+    width: 350px;
+    background-color: lightpink;
+ }
+
+ #online_shopping {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+ }
+
+ #x {
+    /* display: block; */
+    /* flex-direction: row; */
+    padding: 7px;
+ }
+
+ #x a {
+    color: #282c3f;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+ }
+
+ #online_shopping a {
+    text-decoration: none;
+ }
+
+ #x1 {
+    display: flex;
+    flex-direction: column;
+ }
+
+ #x1 a{
+    color: #696b79;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+ }
+
+
+ #useful_links {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+ }
+
+ #y {
+    /* display: block; */
+    /* flex-direction: row; */
+    padding: 7px;
+ }
+
+ #y a {
+    color: #282c3f;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+ }
+
+ #useful_links a {
+    text-decoration: none;
+ }
+
+ #y1 {
+    display: flex;
+    flex-direction: column;
+ }
+
+ #y1 a{
+    color: #696b79;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
  }
