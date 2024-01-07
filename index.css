@@ -228,7 +228,7 @@ justify-content:space-evenly ;
  #second {
     margin: 0px 58px 24px 58px;
     height: 131px;
-    background-color: burlywood;
+    /* background-color: burlywood; */
  }
 
  #last {
@@ -436,4 +436,27 @@ justify-content:space-evenly ;
 #days_return p {
     color: #696b79;
     font-size: 16px;
+}
+
+#heading {
+    padding: 0px 0px 0px 20px;
+}
+
+#in_head {
+    color: #282c3f;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#second_content {
+    padding: 0px 0px 0px 20px;
+    margin-top: 30px;
+}
+
+#second_content a {
+    text-decoration: none;
+    color: #666875;
+    font-size: 15px;
+    /* font-weight: 400; */
+    /* letter-spacing: 0.2px; */
 }
